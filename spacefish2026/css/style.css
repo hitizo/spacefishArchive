@@ -1,0 +1,56 @@
+body {
+    font-family: courier;
+    background-image: url(https://file.garden/ZLptrSeVhBA68gx4/myWebsites/spacefish/images/bg/mainbg.gif);
+}
+
+.layout {
+    display: grid;
+    grid-gap: 20px;
+    width: auto;
+    grid-template:
+    "header header"
+    "sidebar main"
+    "footer footer"
+    / 100px 1fr;
+}
+
+aside {
+    background-image: url(https://file.garden/ZLptrSeVhBA68gx4/myWebsites/spacefish/images/bg/blackpaper.png);
+    height: auto;
+    grid-area: sidebar;
+    width: 150px;
+    height: 1000px;
+    text-align: center;
+    font-size: 25px;
+}
+
+main {
+    grid-area: main;
+    height: auto;
+    width: 525px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin-left: 50px; 
+}
+
+.projects {
+    text-align: left;
+}
+/* -- LINKS -- */
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: gray;
+}
